@@ -1,0 +1,34 @@
+/*secciones:*/
+/*menú lateral*/
+
+.btn-floating {
+	margin: 3%;
+	padding-top:0.3%;
+	font-size: 1.5vw;
+}
+
+#sidenav-overlay {
+	background-color: transparent;
+}
+
+.side-nav {
+	width: 24%;
+	padding-top: 10%;
+}
+
+.side-nav li>a {
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 2vw;
+	margin-top: 2%;
+}
+
+@media only screen and (max-width: 500px) {
+	.side-nav li>a {
+		font-size: 9vw;
+	}
+	.side-nav {
+		padding-top: 20%;
+		width: 100%;
+	}
+/*termina menu lateral*/
+	
