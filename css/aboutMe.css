@@ -1,33 +1,8 @@
-	/* -------------COLORES-------------- */
-
-.verde {
-	color: #91bd8f;
-}
-
-.durazno {
-	color: #FFE4B5;
-}
-
-.rosa {
-	color: #f6b4c9;
-}
-
-.bg-verde {
-	background-color: #91bd8f;
-}
-
-.bg-durazno {
-	background-color: #FFE4B5;
-}
-
-.bg-rosa {
-	background-color: #f6b4c9;
-}
-
 
 /*------------PAGE about me---------------*/
 .btn-floating {
 	margin-top:20%;
+	font-size: 5vw;
 }
 /*foto*/
 .fotografia{
@@ -44,7 +19,7 @@
 
 .texto{
  font-family: 'Cedarville Cursive', cursive;
-	font-size: 1.4vw;
+ font-size: 1.4vw;
  transform: rotate(3deg);
  padding: 15%;
  width: 100%;
@@ -59,13 +34,17 @@
  .img-texto{
  display:inline-block;
 }
-	.circular {
-		width: 150px;
-		height: 150px;
-	}
-	.texto {
-		padding: 10%;
-		margin-top: 5%;
-	}
+ .fotografia img{
+ display: none;
+}
+.texto {
+ width:100%;
+ height:100%;
+ padding: 2%;
+ margin-top: 5%;
+ transform: rotate(0deg);
+ font-size:6.5vw;
+	text-align: center;
+ }
 	/*termina version mobile*/
 	/*------------PAGE about me---------------*/
