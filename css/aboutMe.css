@@ -1,43 +1,71 @@
+	/* -------------COLORES-------------- */
+
+.verde {
+	color: #91bd8f;
+}
+
+.durazno {
+	color: #FFE4B5;
+}
+
+.rosa {
+	color: #f6b4c9;
+}
+
+.bg-verde {
+	background-color: #91bd8f;
+}
+
+.bg-durazno {
+	background-color: #FFE4B5;
+}
+
+.bg-rosa {
+	background-color: #f6b4c9;
+}
+
+
 /*------------PAGE about me---------------*/
-
-html,
-body {
-	margin: 0;
-	height: 100vh;
-	background-image: url(../assets/img/pine.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+.btn-floating {
+	margin-top:20%;
 }
-
-
 /*foto*/
-
-.circular {
-	width: 250px;
-	height: 250px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(http://link-to-your/image.jpg) no-repeat;
-	margin-top: 20%;
+.fotografia{
+ width:100%;
+ height: 100%;
 }
 
-/*termina foto*/
+.fotografia img{
+ width:90%;
+ height:90%;
+}
+
+/*texto*/
 
 .texto{
- background-color: peachpuff;
+ font-family: 'Cedarville Cursive', cursive;
+	font-size: 1.4vw;
+ transform: rotate(3deg);
+ padding: 15%;
+ width: 100%;
+ height:100%;
+ border-radius:1%;
+ margin-top: 40%;
 }
-
 
 /*version mobile*/
 
 @media only screen and (max-width: 500px) {
-	.circular{
-	width: 150px;
-	height: 150px;
-	margin-top: 80%;	
+ .img-texto{
+ display:inline-block;
+}
+	.circular {
+		width: 150px;
+		height: 150px;
 	}
-	
-/*termina version mobile*/
-	
-/*------------PAGE about me---------------*/
+	.texto {
+		padding: 10%;
+		margin-top: 5%;
+	}
+	/*termina version mobile*/
+	/*------------PAGE about me---------------*/

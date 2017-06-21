@@ -15,14 +15,35 @@ body {
 	font-size: 8vw;
 }
 
+			/* -------------COLORES-------------- */
 
-/*termina  sección central*/
+.verde {
+	color: #91bd8f;
+}
 
+.durazno {
+	color: #FFE4B5;
+}
 
-/*menú lateral*/
+.rosa {
+	color: #f6b4c9;
+}
+
+.bg-verde {
+	background-color: #91bd8f;
+}
+
+.bg-durazno {
+	background-color: #FFE4B5;
+}
+
+.bg-rosa {
+	background-color: #f6b4c9;
+}
+							/*menú lateral*/
 
 .btn-floating {
-	margin: 3%;
+	margin:3%;
 	padding-top: 0.3%;
 	font-size: 1.5vw;
 }
@@ -67,7 +88,7 @@ body {
 }
 
 
-/* efecto para menu de navegación */
+			/* efecto para menu de navegación */
 
 .btn-nav {
 	background-image: linear-gradient(pink, #e6ee9c), linear-gradient(transparent, transparent);
@@ -82,10 +103,10 @@ body {
 }
 
 
-/*termina menu lateral*/
+			/*termina menu lateral*/
 
 
-/*versión mobile home*/
+			/*versión mobile home*/
 
 @media only screen and (max-width: 500px) {
 	.side-nav {
@@ -108,3 +129,27 @@ body {
 	}
 	/*termina versión mobile home*/
 	/*------------TERMINA HOME---------------*/
+	
+	/* -------------COLORES-------------- */
+
+.verde {
+color:#91bd8f;
+}
+.durazno {
+color:#FFE4B5;
+}
+.rosa{
+ color:#f6b4c9;
+}
+
+.bg-verde {
+background-color:#91bd8f;
+}
+.bg-durazno {
+background-color:#FFE4B5;
+}
+.bg-rosa{
+ background-color:#f6b4c9;
+}
+
+	

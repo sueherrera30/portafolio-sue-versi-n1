@@ -8,26 +8,50 @@
 	<!--links-->
 	<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
 	<link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/aboutMe.css">
 </head>
-   <section class="container">
-   	 <div class="row">
-   	 	<div class=" col s3 m3 offset-s3 offset-m4">
-   	 		<img class=" circular responsive-img> "src="../assets/img/puerta.jpg" alt="fotografia-entre-ramas">
+ <body>  
+  	<!--Menú lateral-->
+	
+	<ul id="slide-out" class="side-nav">
+			<div class="userView">
+				<li><a href="../index.html" class="btn-nav">Home</a></li>
+				<li><a href="../views/aboutMe.html" class="btn-nav">About me</a></li>
+				<li><a href="#!" class="btn-nav">Skills</a></li>
+				<li><a href="#!" class="btn-nav">Proyects</a></li>
+				<li><a href="#!" class="btn-nav">Contact me</a></li>
+				
+				<div class="flor">
+					<img src="../assets/img/flores.png" alt="">
+				</div>
+			</div>
+	</ul>
+		
+	
+
+	<!--termina Menú lateral-->
+   <section class="container-fluid img-texto">
+   <div class="row">
+ 	 	<div class="col m1">
+ 	 		<a href="#" data-activates="slide-out" class=" btn-menu button-collapse btn-floating btn-large waves-effect waves-light white pink-text">❤</a>
+ 	 	</div>
+  	 	
+  	 	<!--fotografia-->
+   	 	<div class=" col m5 fotografia">
+   	 		<img class=" responsive-img> "src="../assets/img/suefloripondia.png"
+   	 		 alt="fotografia">
    	 	</div>
-   	 </div>
-   	 <div class="row ">
-   	 	<div class=" texto col s3 m3 offset-s3 offset-m4 ">
-   	 		<p>
+   	 	
+  	 	<!--texto-->
+   	 	   	 	<div class="ctn-texto col s10 offset-s1 m4 offset-m1">
+   	 		<p class="texto bg-durazno">
    	 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ratione quasi quam commodi consequuntur modi possimus error sed ducimus mollitia debitis aperiam ab, maiores minima assumenda obcaecati cupiditate laboriosam hic.
    	 		</p>
    	 	</div>
+   	 	
    	 </div>
    </section>
-   
-<body>
-
-
 	<!--js-->
 	<script src="../js/jquery-3.2.1.min.js"></script>
 	<script src="../js/materialize.min.js"></script>
