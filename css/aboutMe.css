@@ -1,0 +1,43 @@
+/*------------PAGE about me---------------*/
+
+html,
+body {
+	margin: 0;
+	height: 100vh;
+	background-image: url(../assets/img/pine.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*foto*/
+
+.circular {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	margin-top: 20%;
+}
+
+/*termina foto*/
+
+.texto{
+ background-color: peachpuff;
+}
+
+
+/*version mobile*/
+
+@media only screen and (max-width: 500px) {
+	.circular{
+	width: 150px;
+	height: 150px;
+	margin-top: 80%;	
+	}
+	
+/*termina version mobile*/
+	
+/*------------PAGE about me---------------*/

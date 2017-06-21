@@ -1,11 +1,13 @@
-/*secciones:*/
-html,body{
-    margin:0;
-    /*height: 100vh;
-    position: relative;*/
-  }
-/*home*/
-.titulo{
+/*------------PAGE HOME---------------*/
+
+html,
+body {
+	margin: 0;
+	height: 100vh;
+}
+/*sección central*/
+
+.titulo {
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -13,12 +15,15 @@ html,body{
 	font-size: 8vw;
 }
 
-/*termina home*/
+
+/*termina  sección central*/
+
 
 /*menú lateral*/
+
 .btn-floating {
 	margin: 3%;
-	padding-top:0.3%;
+	padding-top: 0.3%;
 	font-size: 1.5vw;
 }
 
@@ -27,37 +32,62 @@ html,body{
 }
 
 .side-nav {
+	background-image: url(../assets/img/pine.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 24%;
-	padding-top: 10%;
+	padding-top: 7%;
 }
 
 .side-nav li>a {
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 2vw;
-	margin-top: 2%;
-}
-.side-nav li>a:hover {
-    background-color: transparent;
+	/*margin-top: 2%;*/
+	text-align: center;
 }
 
+.side-nav li>a:hover {
+	background-color: transparent;
+}
+
+.flor {
+	width: 100%;
+	height: 100%;
+	margin-left: 18%;
+}
+
+.flor img {
+	width: 60%;
+	height: 60%;
+	transform: rotate(90deg);
+}
+
+.btn-menu {
+	background-image: url(../assets/img/pine.jpg);
+}
+
+
 /* efecto para menu de navegación */
-.btn-nav{
-  background-image: linear-gradient(pink,#e6ee9c), linear-gradient(transparent,transparent);
-  background-size: 0 5px, auto;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  transition: all .2s ease-out;
+
+.btn-nav {
+	background-image: linear-gradient(pink, #e6ee9c), linear-gradient(transparent, transparent);
+	background-size: 0 5px, auto;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	transition: all .2s ease-out;
 }
 
 .btn-nav:hover {
-  background-size: 80% 5px, auto;
+	background-size: 80% 5px, auto;
 }
+
 
 /*termina menu lateral*/
 
+
 /*versión mobile home*/
+
 @media only screen and (max-width: 500px) {
-	
 	.side-nav {
 		padding-top: 35%;
 		width: 100%;
@@ -67,10 +97,14 @@ html,body{
 		font-size: 9vw;
 		text-align: center;
 	}
-	
-	.titulo{
-		margin-top:50%; 
+	.titulo {
+		margin-top: 50%;
 	}
-	
-/*termina versión mobile home*/
-	
+	.flor img {
+		width: 60%;
+		height: 60%;
+		transform: rotate(90deg);
+		margin-left: 6%;
+	}
+	/*termina versión mobile home*/
+	/*------------TERMINA HOME---------------*/
