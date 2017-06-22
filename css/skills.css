@@ -7,7 +7,7 @@
 .ctn-skills{
     width:38%;
   height:38%;
-  margin-left: 35%;
+  margin-left: 40%;
 }
 .skills p{
  font-family: 'Cedarville Cursive', cursive;
@@ -54,13 +54,14 @@ transition: all 0.7s ease;
 
 @keyframes increase {
   from {
-    width: 1%
+    width: 0%
   }
   to {
     width: 50%
   }
 }
 
+/*
 #basico @keyframes increase {
   from {
     width: 1%
@@ -69,14 +70,28 @@ transition: all 0.7s ease;
     width: 20%
   }
 }
+*/
 
-
+.nivel{
+ margin-right: 22%;
+}
 /*mobile*/
 
 
 @media only screen and (max-width: 500px) {
 	.btn-floating{
 	font-size: 5vw;
+	color: #c5c5c5;
 }
+	.titulo {
+	font-size:10vw;
+	margin-right: 30%;
+}
+    .skills p{
+	font-size:5vw;
+	}
 	
-	
+	.ctn-skills{
+  margin-left: 40%;
+}
+}

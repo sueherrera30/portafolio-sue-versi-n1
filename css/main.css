@@ -7,7 +7,7 @@ body {
 }
 /*sección central*/
 
-.titulo {
+.titulo-nombre{
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -118,7 +118,7 @@ body {
 		font-size: 9vw;
 		text-align: center;
 	}
-	.titulo {
+	.titulo-nombre{
 		margin-top: 50%;
 	}
 	.flor img {
@@ -132,27 +132,5 @@ body {
 }
 	/*termina versión mobile home*/
 	/*------------TERMINA HOME---------------*/
-	
-	/* -------------COLORES-------------- */
-
-.verde {
-color:#91bd8f;
-}
-.durazno {
-color:#FFE4B5;
-}
-.rosa{
- color:#f6b4c9;
-}
-
-.bg-verde {
-background-color:#91bd8f;
-}
-.bg-durazno {
-background-color:#FFE4B5;
-}
-.bg-rosa{
- background-color:#f6b4c9;
-}
 
 	
