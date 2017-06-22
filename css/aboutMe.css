@@ -2,7 +2,6 @@
 /*------------PAGE about me---------------*/
 .btn-floating {
 	margin-top:20%;
-	font-size: 5vw;
 }
 /*foto*/
 .fotografia{
@@ -28,14 +27,17 @@
  margin-top: 40%;
 }
 
+.notas{
+ display: none;
+}
 /*version mobile*/
 
 @media only screen and (max-width: 500px) {
- .img-texto{
- display:inline-block;
-}
- .fotografia img{
- display: none;
+
+.notas img{	
+ width:7%;
+ height: 7%;
+ margin-left:12%; 
 }
 .texto {
  width:100%;
@@ -44,7 +46,23 @@
  margin-top: 5%;
  transform: rotate(0deg);
  font-size:6.5vw;
-	text-align: center;
+ text-align: center;
  }
-	/*termina version mobile*/
+.btn-floating{
+	font-size: 5vw;
+}
+
+ .fotografia img{
+  display:none;  
+}
+ .notas{
+  display: inline;
+ }
+	.notas:hover{
+    
+	}
+
+	
+	
+	/*termina version mobile
 	/*------------PAGE about me---------------*/

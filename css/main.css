@@ -67,7 +67,7 @@ body {
 	text-align: center;
 }
 
-.side-nav li>a:hover {
+.side-nav li>a:hover{
 	background-color: transparent;
 }
 
@@ -98,7 +98,7 @@ body {
 	transition: all .2s ease-out;
 }
 
-.btn-nav:hover {
+.btn-nav:hover{
 	background-size: 80% 5px, auto;
 }
 
@@ -127,6 +127,9 @@ body {
 		transform: rotate(90deg);
 		margin-left: 6%;
 	}
+	.btn-floating{
+	font-size: 5vw;
+}
 	/*termina versión mobile home*/
 	/*------------TERMINA HOME---------------*/
 	

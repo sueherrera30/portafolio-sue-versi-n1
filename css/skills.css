@@ -1,0 +1,19 @@
+.container{
+  width:100%;
+  height: 100%;
+  text-align: center;
+}
+.image{
+  width:20%;
+  height: 35%;
+}
+
+
+.container:hover .image{
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}
+.container .image, .container:hover .image {
+transition: all 0.7s ease;
+}
+
