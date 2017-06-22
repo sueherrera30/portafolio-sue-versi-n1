@@ -1,19 +1,82 @@
-.container{
+/*titulo*/
+.titulo {
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 3vw;
+}
+
+.ctn-skills{
+    width:38%;
+  height:38%;
+  margin-left: 35%;
+}
+.skills p{
+ font-family: 'Cedarville Cursive', cursive;
+ font-size: 1.8vw;
+}
+/*imagen*/
+.ctn-img{
   width:100%;
-  height: 100%;
-  text-align: center;
+  height:100%;
+  margin-left: 5%;
 }
 .image{
-  width:20%;
-  height: 35%;
+  width:30%;
+  height:30%;
 }
-
-
-.container:hover .image{
-transform: rotateY(180deg);
+.container-logo:hover .image{
+transform: rotateY(360deg);
 transform-style: preserve-3d;
 }
-.container .image, .container:hover .image {
+.container-logo .image, .container-logo:hover .image {
 transition: all 0.7s ease;
 }
 
+/*progress bar*/
+
+.progress {
+  width: 200px;
+  height: 10px;
+  background-color: #c5c5c5;
+  border-radius: 16px;
+  padding: 4px;
+}
+
+.bar {
+  background-color:mediumpurple;
+  width: 10%;
+  height: 100%;
+  border-radius: 16px;
+  animation-name: increase;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes increase {
+  from {
+    width: 1%
+  }
+  to {
+    width: 50%
+  }
+}
+
+#basico @keyframes increase {
+  from {
+    width: 1%
+  }
+  to {
+    width: 20%
+  }
+}
+
+
+/*mobile*/
+
+
+@media only screen and (max-width: 500px) {
+	.btn-floating{
+	font-size: 5vw;
+}
+	
+	
