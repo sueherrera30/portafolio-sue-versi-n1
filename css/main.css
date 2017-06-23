@@ -5,16 +5,18 @@ body {
 	margin: 0;
 	height: 100vh;;
 	background-color: #FFDEAD;
+	font-family: 'Cedarville Cursive',
 }
 /*sección central*/
 
-.titulo-nombre{
+.titulo-nombre {
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	font-family: 'Cedarville Cursive', cursive;
 	font-size: 8vw;
 }
+
 
 			/* -------------COLORES-------------- */
 
@@ -105,7 +107,28 @@ body {
 
 
 			/*termina menu lateral*/
+.typewriter h3 {
+  overflow: hidden; 
+  border-right: .15em solid #f06292;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
 
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f06292; }
+}
 
 			/*versión mobile home*/
 
@@ -131,6 +154,11 @@ body {
 	.btn-floating{
 	font-size: 5vw;
 }
+	h3{
+		font-size: 7vw;
+	}
+}
+	
 	/*termina versión mobile home*/
 	/*------------TERMINA HOME---------------*/
 

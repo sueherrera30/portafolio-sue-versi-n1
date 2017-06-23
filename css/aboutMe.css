@@ -14,6 +14,10 @@
  height:90%;
 }
 
+.titulo{
+	font-family: 'Cedarville Cursive', cursive;
+	font-size:2vw;
+}
 /*texto*/
 
 .texto{
@@ -24,7 +28,7 @@
  width: 100%;
  height:100%;
  border-radius:1%;
- margin-top: 40%;
+ margin-top: 10%;
 }
 
 .notas{
