@@ -115,20 +115,21 @@ body {
 
 
 footer{
-height:10%;
+height:7%;
 background-color: #fcceb7;
 display: flex;
 font-size: 3vw;
-padding-left:40%;
+padding-left:45%;
+ color:white;
 }
 
 footer p{
 font-family: 'Cedarville Cursive', cursive;
-font-size: 1.5vw;
+font-size: 1.3vw;
 }
 
 footer i{
- padding-left: 3%;
+ padding-left:3%;
  padding-top: 1%
 }
 
