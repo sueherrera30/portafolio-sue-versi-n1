@@ -4,53 +4,36 @@ html,
 body {
 	margin: 0;
 	height: 100vh;;
-	background-color: #FFDEAD;
+	/*background-color: #FFDEAD;*/
 	font-family: 'Cedarville Cursive',
 }
 /*sección central*/
 
 .titulo-nombre {
-	display: flex;
-	align-content: center;
-	justify-content: center;
+	margin-left:33%;
+}
+
+.titulo-nombre p{
 	font-family: 'Cedarville Cursive', cursive;
-	font-size: 8vw;
+	font-size: 5vw;
+	margin-left:6%;
+	color:#fa86c6;
 }
 
-
-/*
-			 -------------COLORES-------------- 
-
-.verde {
-	color: #91bd8f;
+.titulo-nombre h5{
+	font-family: 'Poiret One', cursive;
+	color: mediumseagreen;
+	font-weight: bold;
+	margin-left: 15%;
 }
 
-.durazno {
-	color: #FFE4B5;
-}
-
-.rosa {
-	color: #f6b4c9;
-}
-
-.bg-verde {
-	background-color: #91bd8f;
-}
-
-.bg-durazno {
-	background-color: #FFE4B5;
-}
-
-.bg-rosa {
-	background-color: #f6b4c9;
-}
-			*/	
 /*menú lateral*/
 
 .btn-floating {
 	margin:3%;
 	padding-top: 0.3%;
 	font-size: 1.5vw;
+	color: #fa86c6;
 }
 
 #sidenav-overlay {
@@ -82,15 +65,11 @@ body {
 	margin-left: 18%;
 }
 
-.flor img {
-	width: 60%;
-	height: 60%;
-	transform: rotate(90deg);
-}
 
 .btn-menu {
 	background-image: url(../assets/img/pine.jpg);
 }
+
 
 
 			/* efecto para menu de navegación */
@@ -109,7 +88,7 @@ body {
 
 
 			/*termina menu lateral*/
-.typewriter h3 {
+.typewriter h3  {
   overflow: hidden; 
   border-right: .15em solid #f06292;
   white-space: nowrap;
@@ -163,6 +142,9 @@ body {
 }
 	h3{
 		font-size: 7vw;
+	}
+	.musicflores{
+		margin-left: 0;
 	}
 }
 	
