@@ -1,4 +1,13 @@
 
-.card .card-content .card-title p{
-   font-family: 'Cedarville Cursive';
+.letra{
+    font-family: 'Cedarville Cursive'; 
 }
+
+.card .card-content{
+   font-family: 'Cedarville Cursive'; 
+	background-image: url(../assets/img/pine.jpg);
+}
+
+/*.card .card-content .card-title {
+  
+}*/
