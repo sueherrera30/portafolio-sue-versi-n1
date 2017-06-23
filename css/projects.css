@@ -30,7 +30,10 @@ background-image: url(../assets/img/pine.jpg);
   
 }
 
-
+footer i{
+ color:black;
+ font-weight: 0;
+}
 
 p{
 	font-family: 'Poiret One', cursive;

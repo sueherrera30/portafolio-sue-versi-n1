@@ -32,7 +32,7 @@ body {
 /*menú lateral*/
 
 .btn-floating {
-	margin:3%;
+	margin-top:3%;
 	padding-top: 0.3%;
 	font-size: 1.5vw;
 	color: #fa86c6;
@@ -114,17 +114,32 @@ body {
 }
 
 
+footer{
+height:10%;
+background-color: #fcceb7;
+display: flex;
+font-size: 3vw;
+padding-left:40%;
+}
 
+footer p{
+font-family: 'Cedarville Cursive', cursive;
+font-size: 1.5vw;
+}
 
+footer i{
+ padding-left: 3%;
+ padding-top: 1%
+}
 
-
-			/*versión mobile home*/
+/*versión mobile home*/
 
 @media only screen and (max-width: 500px) {
 	.side-nav {
 		padding-top: 35%;
 		width: 100%;
 		background-color: #fff9c4;
+		opacity: 0.5;
 	}
 	.side-nav li>a {
 		font-size: 9vw;
@@ -155,10 +170,20 @@ body {
 	 font-size: 13vw;
 	} 
 	.titulo-nombre h3{
-	 margin-left: 7%;
+	 margin-left:5%;
 	 font-size: 6vw;
 	} 
 	
+	footer {
+	font-size: 7vw;
+    padding-left: 30%;
+	}
+	
+	footer p {
+	margin-right:2%;
+	font-size: 4vw;
+	display: block;
+	}
 	
 }
 	
