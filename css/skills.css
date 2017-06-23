@@ -73,7 +73,7 @@ transition: all 0.7s ease;
 	
 	@keyframes increase-20 {
 	  from {
-		width: 1%
+		width: 0%
 	  }
 	  to {
 		width: 20%

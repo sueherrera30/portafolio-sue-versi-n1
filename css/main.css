@@ -3,7 +3,7 @@
 html,
 body {
 	margin: 0;
-	height: 100vh;;
+	height: 100vh;
 	/*background-color: #FFDEAD;*/
 	font-family: 'Cedarville Cursive',
 }
@@ -25,7 +25,7 @@ body {
 	font-family: 'Poiret One', cursive;
 	color: mediumseagreen;
 	font-weight: bold;
-	margin-left:13%;
+	padding-left:9%;
 	font-size: 2vw;
 }
 
@@ -155,9 +155,11 @@ body {
 	 font-size: 13vw;
 	} 
 	.titulo-nombre h3{
-	 margin-left: 18%;
+	 margin-left: 7%;
 	 font-size: 6vw;
 	} 
+	
+	
 }
 	
 	/*termina versión mobile home*/
