@@ -10,6 +10,7 @@ body {
 /*sección central*/
 
 .titulo-nombre {
+	margin-top: 0;
 	margin-left:33%;
 }
 
@@ -20,11 +21,12 @@ body {
 	color:#fa86c6;
 }
 
-.titulo-nombre h5{
+.titulo-nombre h3{
 	font-family: 'Poiret One', cursive;
 	color: mediumseagreen;
 	font-weight: bold;
-	margin-left: 15%;
+	margin-left:13%;
+	font-size: 2vw;
 }
 
 /*menú lateral*/
@@ -129,7 +131,8 @@ body {
 		text-align: center;
 	}
 	.titulo-nombre{
-		margin-top: 50%;
+		margin-left: 0;
+		margin-top: 30%;
 	}
 	.flor img {
 		width: 60%;
@@ -140,12 +143,21 @@ body {
 	.btn-floating{
 	font-size: 5vw;
 }
-	h3{
-		font-size: 7vw;
+	h5{
+		font-size: 3vw;
 	}
 	.musicflores{
 		margin-left: 0;
 	}
+	
+	.titulo-nombre p{
+	text-align: center;
+	 font-size: 13vw;
+	} 
+	.titulo-nombre h3{
+	 margin-left: 18%;
+	 font-size: 6vw;
+	} 
 }
 	
 	/*termina versión mobile home*/
